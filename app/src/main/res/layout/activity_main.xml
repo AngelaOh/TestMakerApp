@@ -75,5 +75,14 @@
         android:text="PRACTICE VIEW SWITCH"
         android:layout_marginTop="50dp" />
 
+    <EditText
+        android:id="@+id/practice_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Without Input"
+        android:textColor="@android:color/white" />
+
 
 </LinearLayout>
