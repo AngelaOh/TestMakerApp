@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText practiceInput;
     private String practiceAPIStandard = "";
     private final int REQUEST_CODE = 123;
-    private String waURL = "https://api.commonstandardsproject.com/api/v1/standard_sets/7432D25024594EA9A2092DF45BBA7F6C_D1000385_grade-06?api-key=KQdTZZ7q3CK1Fd9Etdgz88XQ";
+    private String waURL = "https://api.commonstandardsproject.com/api/v1/standard_sets/7432D25024594EA9A2092DF45BBA7F6C_D1000385_grade-06?";
     RequestQueue queue;
 
     @Override
