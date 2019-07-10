@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "190820022648",
+    "firebase_url": "https://testmakerapp-84742.firebaseio.com",
+    "project_id": "testmakerapp-84742",
+    "storage_bucket": "testmakerapp-84742.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190820022648:android:34daff3a0f355ca4",
+        "android_client_info": {
+          "package_name": "com.example.testmakerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190820022648-coppctace73s91prjpa7c7gojqhsfisg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testmakerapp",
+            "certificate_hash": "9aa2de7472dfaf36c3e6cdae437d30934fca7ac3"
+          }
+        },
+        {
+          "client_id": "190820022648-3m2upogp5sjj57hj7ah83qktu2a7814e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaqK6CAZEVTBKRAmrC0ITlsFyHPvVTgn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190820022648-3m2upogp5sjj57hj7ah83qktu2a7814e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
