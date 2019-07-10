@@ -39,12 +39,10 @@
     <LinearLayout
         android:layout_width="486dp"
         android:layout_height="212dp"
-        android:layout_marginTop="50dp"
-        android:gravity="bottom"
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="229dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
@@ -66,12 +64,10 @@
                 android:layout_margin="10dp"
                 android:text="Create Question" />
 
-
         </LinearLayout>
 
-
         <ImageView
-            android:layout_width="258dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/ic_launcher_foreground" />
 
@@ -80,17 +76,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:gravity="center">
 
-<!--        <TextView-->
-<!--            android:id="@+id/practice_output"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="hello"-->
-<!--            android:textColor="#FAFFFD"-->
-<!--            android:textAlignment="center"-->
-<!--            android:textSize="30dp"/>-->
+        <TextView
+            android:id="@+id/practice_output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="#FAFFFD"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
 
         <Button
             android:id="@+id/back_button"

@@ -19,14 +19,16 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-//        outputText = findViewById(R.id.practice_output);
+        outputText = findViewById(R.id.practice_output);
         headerTwo = findViewById(R.id.app_header2);
         backButton = findViewById(R.id.back_button);
 
         String practiceValue = String.valueOf(getIntent().getStringExtra("practice_input"));
+        String apiStandard = getIntent().getStringExtra("practice_API");
 
+        Log.d("API Standard", "onCreate: " + apiStandard);
         if (practiceValue != null ) {
-//            outputText.setText(practiceValue);
+            outputText.setText("API Call Example:" + apiStandard);
             headerTwo.setText("Welcome, " + practiceValue);
         }
 
